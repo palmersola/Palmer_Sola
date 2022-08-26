@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Palmer_Sola/static/css/main.5f2bf67f.css",
+    "main.css": "/Palmer_Sola/static/css/main.5db524ee.css",
     "main.js": "/Palmer_Sola/static/js/main.f802231c.js",
     "static/js/787.a2cb61a6.chunk.js": "/Palmer_Sola/static/js/787.a2cb61a6.chunk.js",
     "static/media/WelcomeToMars.png": "/Palmer_Sola/static/media/WelcomeToMars.000f36f6b21d0c496176.png",
@@ -12,12 +12,12 @@
     "static/media/pate-screenshot.png": "/Palmer_Sola/static/media/pate-screenshot.e5c2fcbea49db64b0bef.png",
     "static/media/notetaker.png": "/Palmer_Sola/static/media/notetaker.e4edcc9da46badff0b0d.png",
     "index.html": "/Palmer_Sola/index.html",
-    "main.5f2bf67f.css.map": "/Palmer_Sola/static/css/main.5f2bf67f.css.map",
+    "main.5db524ee.css.map": "/Palmer_Sola/static/css/main.5db524ee.css.map",
     "main.f802231c.js.map": "/Palmer_Sola/static/js/main.f802231c.js.map",
     "787.a2cb61a6.chunk.js.map": "/Palmer_Sola/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f2bf67f.css",
+    "static/css/main.5db524ee.css",
     "static/js/main.f802231c.js"
   ]
 }
