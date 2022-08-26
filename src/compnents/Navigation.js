@@ -6,7 +6,7 @@ function Navigation() {
     <nav>
       <NavLink to="/">about.me</NavLink>
       <NavLink to="/project">projects.me</NavLink>
-      <NavLink to="/contact">contact</NavLink>
+      <NavLink to="/contact">contact.me</NavLink>
       <a href={resume} download>
         resume.me
       </a>
