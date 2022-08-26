@@ -1,4 +1,4 @@
-import palmerPhoto from "./palmerphoto.jpg";
+import palmerPhoto from "./images/palmerphoto.jpg";
 function About() {
   return (
     <aside class="about">
