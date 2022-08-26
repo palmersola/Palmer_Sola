@@ -10,8 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<About />} />
-          <Route path="project" element={<Project />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </HashRouter>
