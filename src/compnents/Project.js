@@ -1,5 +1,3 @@
-import Header from "./Header";
-import Footer from "./Footer";
 function Project() {
   return (
     <article id="projects-me">
