@@ -1,7 +1,11 @@
 import palmerPhoto from "./images/palmerphoto.jpg";
 function About() {
   return (
+<<<<<<< HEAD
     <aside class="about">
+=======
+    <aside className="about">
+>>>>>>> 7c0225f503d05cb43cedeaa154cc4e17e2362d2e
       <div>
         <h2 id="about-me">about_me</h2>
         <img src={palmerPhoto} alt="placeholder" />
