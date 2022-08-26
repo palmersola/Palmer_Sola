@@ -2,7 +2,7 @@
 :root {
   --orange: #e96113;
   --green: #3d583d;
-  --brown: #161308;
+  --brown: #1f1906;
   --pink: #ca7474;
   --cream: #fff6da;
   --gray: #37382e;
@@ -16,6 +16,10 @@ body {
 a {
   text-decoration: none;
   color: var(--pink);
+}
+
+.full {
+  height: max-content;
 }
 
 header {
@@ -78,18 +82,17 @@ footer li:hover:after {
 } */
 
 .about {
+  padding-top: 1.5%;
   display: flex;
   /* flex-wrap: wrap; */
 
   /* flex-direction: column; */
   /* align-items: baseline; */
   background: var(--gray);
-  min-width: 800px;
 }
 
 .about div {
   flex: 1 0 30%;
-  align-items: flex-start;
 }
 
 .about h2,
@@ -184,6 +187,65 @@ article {
   font-size: 20px;
 }
 
+.contact {
+  padding-top: 0%;
+  padding-bottom: 2%;
+  background-color: var(--pink);
+  text-align: center;
+}
+.contactAfter {
+  font-size: 300%;
+  color: var(--brown);
+  padding-top: 10%;
+  padding-bottom: 30%;
+}
+
+.contact h2 {
+  display: inline-block;
+  width: 50%;
+  border: 10px solid var(--brown);
+  border-radius: 40px;
+  font-size: 300%;
+  color: var(--orange);
+  background: var(--green);
+  padding: 1% 0%;
+  margin-top: 3%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.contact button {
+  display: inline-block;
+  width: 50%;
+  border: 10px solid var(--brown);
+  border-radius: 40px;
+  margin: 0%;
+  font-size: 150%;
+  color: var(--orange);
+  background: var(--green);
+  padding: 1% 0%;
+  margin-top: 5px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.contact input,
+.contact textarea {
+  display: inline-block;
+  width: 45%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: var(--cream);
+}
+.contact textarea {
+  height: 300px;
+  resize: none;
+}
+
 footer {
   display: flex;
   width: 100%;
@@ -236,6 +298,11 @@ footer li {
     max-height: 420px;
     min-height: 420px;
     flex: 1 0 100%;
+  }
+  .contact h2,
+  .contact input,
+  .contact textarea {
+    width: 90%;
   }
   footer li {
     margin: 0 5px;

@@ -1,13 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Header from "./compnents/Header";
-import Navigation from "./compnents/Navigation";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./compnents/Layout";
 import About from "./compnents/About";
 import Project from "./compnents/Project";
-import Footer from "./compnents/Footer";
-const select = true;
+import Contact from "./compnents/Contact";
 function App() {
-  return <About />;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<About />} />
+          <Route path="project" element={<Project />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
