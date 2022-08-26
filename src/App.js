@@ -1,20 +1,20 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
-import Layout from "./compnents/Layout";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import About from "./compnents/About";
 import Project from "./compnents/Project";
 import Contact from "./compnents/Contact";
+import Header from './compnents/Header';
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
+      <Header />
+
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<About />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
-        </Route>
+        <Route path="/" element={<About />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

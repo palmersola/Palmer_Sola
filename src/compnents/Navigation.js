@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import resume from "./images/Resume.docx";
 
 function Navigation() {
   return (
     <nav>
-      <Link to="/">about.me</Link>
-      <Link to="/project">projects.me</Link>
-      <a href="/contact">contact.me</a>
+      <NavLink to="/">about.me</NavLink>
+      <NavLink to="/project">projects.me</NavLink>
+      <NavLink to="/contact">contact</NavLink>
       <a href={resume} download>
         resume.me
       </a>
