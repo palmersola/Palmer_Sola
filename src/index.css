@@ -135,6 +135,8 @@ footer li:hover:after {
 }
 
 .about p {
+  line-height: 30px;
+  font-size: large;
   flex: 1 0 60%;
   align-items: flex-end;
   padding: 5%;

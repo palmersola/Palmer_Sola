@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import resume from "./images/Resume.docx";
+import resume from "./images/Resume.pdf";
 
 function Navigation() {
   return (

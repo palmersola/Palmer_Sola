@@ -1,12 +1,17 @@
+import myDood from "./images/mydood.gif.gif";
 import pokemon from "./images/Pokeslap_Gif.gif";
 import mars from "./images/WelcomeToMars.png";
 import pate from "./images/pate-screenshot.png";
 import note from "./images/notetaker.png";
 import weather from "./images/Weather-Dashboard-Img.png";
-import OGPort from "./images/portfolio.png";
 function Project() {
   return (
     <article id="projects-me">
+      <a href="https://my-dood.herokuapp.com/" class="project" target="_blank">
+        <img src={myDood} alt="placeholder" />
+        <h3>MyDood</h3>
+      </a>
+
       <a href="https://poke-slap.herokuapp.com" class="project" target="_blank">
         <img src={pokemon} alt="Pokemon Slap gif" />
         <h3>Pokemon Slap</h3>
@@ -46,15 +51,6 @@ function Project() {
       >
         <img src={weather} alt="Weather App Photo" />
         <h3>Weather App</h3>
-      </a>
-
-      <a
-        href="https://palmersola.github.io/My-Portfolio/"
-        class="project"
-        target="_blank"
-      >
-        <img src={OGPort} alt="placeholder" />
-        <h3>Sooo groovy</h3>
       </a>
     </article>
   );
