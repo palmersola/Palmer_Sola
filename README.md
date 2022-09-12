@@ -1,6 +1,6 @@
 # React-Portfolio
 
-Updated portfolio using react
+Updated portfolio using React
 
 ## Links
 
