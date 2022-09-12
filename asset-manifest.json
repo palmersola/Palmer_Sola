@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Palmer_Sola/static/css/main.5db524ee.css",
-    "main.js": "/Palmer_Sola/static/js/main.f802231c.js",
+    "main.css": "/Palmer_Sola/static/css/main.1dcb1c55.css",
+    "main.js": "/Palmer_Sola/static/js/main.9fcc58f2.js",
     "static/js/787.a2cb61a6.chunk.js": "/Palmer_Sola/static/js/787.a2cb61a6.chunk.js",
     "static/media/WelcomeToMars.png": "/Palmer_Sola/static/media/WelcomeToMars.000f36f6b21d0c496176.png",
     "static/media/Pokeslap_Gif.gif": "/Palmer_Sola/static/media/Pokeslap_Gif.3bc7782220a172221036.gif",
     "static/media/palmerphoto.jpg": "/Palmer_Sola/static/media/palmerphoto.d6a81f19e87bfdf1ec89.jpg",
-    "static/media/Resume.docx": "/Palmer_Sola/static/media/Resume.a73b6a269d7cc4c76373.docx",
-    "static/media/portfolio.png": "/Palmer_Sola/static/media/portfolio.726f9567e8a216e39f39.png",
+    "static/media/mydood.gif.gif": "/Palmer_Sola/static/media/mydood.gif.f257d5599c8339883b46.gif",
     "static/media/Weather-Dashboard-Img.png": "/Palmer_Sola/static/media/Weather-Dashboard-Img.05691031f4281671a8f8.png",
     "static/media/pate-screenshot.png": "/Palmer_Sola/static/media/pate-screenshot.e5c2fcbea49db64b0bef.png",
     "static/media/notetaker.png": "/Palmer_Sola/static/media/notetaker.e4edcc9da46badff0b0d.png",
+    "static/media/Resume.pdf": "/Palmer_Sola/static/media/Resume.a3996e621948258fe1a5.pdf",
     "index.html": "/Palmer_Sola/index.html",
-    "main.5db524ee.css.map": "/Palmer_Sola/static/css/main.5db524ee.css.map",
-    "main.f802231c.js.map": "/Palmer_Sola/static/js/main.f802231c.js.map",
+    "main.1dcb1c55.css.map": "/Palmer_Sola/static/css/main.1dcb1c55.css.map",
+    "main.9fcc58f2.js.map": "/Palmer_Sola/static/js/main.9fcc58f2.js.map",
     "787.a2cb61a6.chunk.js.map": "/Palmer_Sola/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db524ee.css",
-    "static/js/main.f802231c.js"
+    "static/css/main.1dcb1c55.css",
+    "static/js/main.9fcc58f2.js"
   ]
 }
